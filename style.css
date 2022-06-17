@@ -1,0 +1,39 @@
+/* outline 16px */
+#wrap {
+    width: 400px;
+    background-color: aquamarine;
+}
+#wrap > div:nth-child(1) {
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+}
+#wrap > div:nth-child(1) h1 {
+    color: white;
+    font-size: 36px;
+}
+#wrap > div:nth-child(2) {
+    width: 100%;
+    padding: 20px 20px 50px 20px;
+    background-color: #AED6F1;
+}
+#wrap > div:nth-child(2) input[type=text] {
+    width: 95%;
+    display: block;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    outline: 3px solid gray;
+    border: 0px;
+}
+#wrap > div:nth-child(2) input[type=text]:focus {
+    outline: 3px solid blue;
+}
+#check-wrap {
+    margin-top: 15px;
+    width: 100%;
+}
+#check-wrap input {
+    width: 16px;
+    height: 16px;
+}
