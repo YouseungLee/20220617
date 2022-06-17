@@ -31,11 +31,6 @@
     margin-top: 5px;
     padding: 5px;
 }
-#check-wrap input {
-    width: 16px;
-    height: 16px;
-    border-radius: 16px;
-}
 #check-wrap span {
     font-size: 18px;
     font-weight: bold;
